@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+    <title>react-native</title>
+    <style>
+
+      body {
+        margin: 0;
+      }
+
+      .app {
+        background-color: #FFFDF6;
+      }
+
+      .appBar {
+        background-color: #265366;
+        color: white;
+        padding: 12px;
+        text-align: center;
+        box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+      }
+
+      .memo-list {
+        padding-top:5px;
+      }
+
+      .memo-list-item {
+        background-color: #fff;
+        padding:12px;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .memo-list-item h3 {
+        font-size: 18px;
+        margin: 0;
+      }
+
+      .memo-list-item p {
+        font-size: 11px;
+        color: #a2a2a2;
+        margin: 0;
+      }
+
+      .memo-add-button {
+        width: 50px;
+        height: 50px;
+        background-color:#E31676;
+        color: #fff;
+        font-size:30px;
+        text-align:center;
+        line-height: 48px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+      }
+    </style>
+  </head>
+
+<!--コンテンツ部分 -->
+  <body>
+    <div class="app">
+      <div class="appBar">MEMOT</div>
+
+      <div class="memo-list">
+        <div class="memo-list-item">
+          <h3>講座のアイデア</h3>
+          <p>2019/11/7</p>
+        </div>
+
+        <div class="memo-list-item">
+          <h3>買い出し</h3>
+          <p>2019/11/6</p>
+        </div>
+
+        <div class="memo-list-item">
+          <h3>11月のTODOリスト</h3>
+          <p>2019/10/30</p>
+        </div>
+
+        <div class="memo-list-item">
+          <h3>講座のアイデア</h3>
+          <p>2019/10/30</p>
+        </div>
+
+        <div class="memo-list-item">
+          <h3>レシピ カルボナーラ</h3>
+          <p>2019/10/30</p>
+        </div>
+
+        <div class="memo-add-button">
+          +
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
